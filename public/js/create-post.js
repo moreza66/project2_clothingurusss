@@ -8,19 +8,6 @@ async function newFormHandler(event) {
     const color = document.querySelector('input[name="color"]').value;
     const price = document.querySelector('input[name="price"]').value;
    
-    //const img_path = document.querySelector('input[name="photoUpload"]').value;
-    // let img_file
-   // const img_file = img_path.split(`\\`)[2]
-
-    // MAY need to add this for deployment to heroku
-
-    // if(PORT = 3001){
-    // img_file = img_path.split(`\\`)[2];
-    // }
-    // // may need to change for heroku
-    // else{
-    // img_file = img_path.split(`\\`)[2];
-    // 
 
     const response = await fetch(`/api/clothing_product`, {
         method: 'POST',
