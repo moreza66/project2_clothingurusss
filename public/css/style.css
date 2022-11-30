@@ -286,4 +286,12 @@ img{
 .navbar-item {
     display: block !important; 
 }
+.card-content {
+    background-color: burlywood !important;
+    display: flex;
+    flex-direction: column;
+    font-family:fantasy!important;
+    
+
+}
 }
