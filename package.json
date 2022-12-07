@@ -8,5 +8,24 @@
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.25.8"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "project2_clothingurusss",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moreza66/project2_clothingurusss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moreza66/project2_clothingurusss/issues"
+  },
+  "homepage": "https://github.com/moreza66/project2_clothingurusss#readme",
+  "description": ""
 }
